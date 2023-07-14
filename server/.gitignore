@@ -1,0 +1,8 @@
+.vim
+.vscode
+.yarn
+dist
+node_modules
+sessions.txt
+.yarnrc.yml
+.env
