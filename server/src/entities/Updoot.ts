@@ -1,7 +1,7 @@
+import { Field, ObjectType } from "type-graphql";
 import { BaseEntity, Column, Entity, ManyToOne, PrimaryColumn } from "typeorm";
-import { Field, Int, ObjectType } from "type-graphql";
-import { User } from "./User";
 import { Post } from "./Post";
+import { User } from "./User";
 
 //many to many
 //user <--> posts

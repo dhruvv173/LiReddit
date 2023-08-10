@@ -18,6 +18,7 @@ import { User } from "../entities/User";
 import { isAuth } from "../middleware/isAuth";
 import { MyContext } from "../types";
 import { Updoot } from "../entities/Updoot";
+import { sendUpdootEmail } from "../utils/sendUpdootEmail";
 
 @InputType()
 class PostInput {
@@ -118,6 +119,19 @@ export class PostResolver {
           [realValue, postId]
         );
       });
+    }
+    const post = await Post.findOne(postId);
+    if (post && post?.points === 2) {
+      const user = await User.findOne({ where: { id: req.session.userId } });
+      const userMail = user?.email;
+      console.log(user?.email);
+      if (!userMail) {
+        return false;
+      }
+      await sendUpdootEmail(
+        userMail,
+        "Congratulations! Your post has received 2 upvotes! 🎉 Keep up the great content!"
+      );
     }
     return true;
   }
