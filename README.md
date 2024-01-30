@@ -1,0 +1,6 @@
+![image](https://github.com/dhruvv173/LiReddit/assets/79097544/aef567f0-9f00-4b52-bd54-24ca525a2f85)
+![image](https://github.com/dhruvv173/LiReddit/assets/79097544/ff72228b-63c5-4a79-801d-f3760d74d321)
+![image](https://github.com/dhruvv173/LiReddit/assets/79097544/7dc469a0-56cc-40dd-b86f-fb70ddee0ce4)
+![image](https://github.com/dhruvv173/LiReddit/assets/79097544/191ea46d-c19b-4c6b-8df7-d8fd197418fe)
+![image](https://github.com/dhruvv173/LiReddit/assets/79097544/d4754719-83fb-4a5c-a849-d8dcb22037e3)
+![image](https://github.com/dhruvv173/LiReddit/assets/79097544/29e655c1-374d-43b3-adfe-b8543632ff38)
